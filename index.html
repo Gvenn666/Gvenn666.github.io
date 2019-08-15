@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+        <title>Nerdprogramming.co.uk</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+        <script src="https://assets.what3words.com/sdk/v3/what3words.js?key=YPH05LCY"></script>
+        <script src="js/lib/nn.js"></script>
+        <script src="js/lib/matrix.js"></script>
+
+    </head>
+
+    <body>
+        <h1><u>Nerdprogramming</u></h1><br>
+
+        <script>    
+           
+           async function getLocation(place) {
+               
+           }
+
+            what3words.api.convertTo3wa({lat:51.508344, lng:-0.12549900}).then(function(response) {
+                console.log("[convertTo3wa]", response);
+            });
+
+        </script>
+
+    </body>    
+</html>

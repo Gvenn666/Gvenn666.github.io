@@ -1,0 +1,23 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 5px; 
+    font: small-caps;
+}
+a:link, a:visited {
+    background-color: #7c7c7c;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(63, 63, 63);
+  }
